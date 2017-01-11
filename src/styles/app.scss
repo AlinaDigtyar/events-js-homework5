@@ -1,0 +1,25 @@
+.view,
+.area {
+  height: 150px;
+  width: 400px;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.view {
+  /* padding + border = 3px */
+
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.area {
+  border: 3px groove blue;
+  padding: 0px;
+  display: none;
+}
+
+.area:focus {
+  outline: none; /* removes frame while focusing */
+}
+
